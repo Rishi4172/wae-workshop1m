@@ -1,9 +1,10 @@
 {
-  "name": "wae-workshop1m",
+  "name": "wae-workshop1-express-node",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "node app.js" ,
     "test": "npm run test"
   },
   "author": "",
@@ -11,6 +12,8 @@
   "dependencies": {
     "express": "^4.19.1",
     "mongodb": "^6.5.0",
-    "mongoose": "^8.2.3"
+    "mongoose": "^8.2.3",
+    "moongoose": "^0.0.5",
+    "nodemon": "^3.1.0"
   }
 }
